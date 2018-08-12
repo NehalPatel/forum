@@ -1,3 +1,8 @@
+
+[![GitHub issues](https://img.shields.io/github/issues/NehalPatel/forum.svg)](https://github.com/NehalPatel/forum/issues)
+[![GitHub license](https://img.shields.io/github/license/NehalPatel/forum.svg)](https://github.com/NehalPatel/forum/blob/master/LICENSE)
+
+
 ## Laravel Forum
 
 Learning Laravel from Laracasts, and build a forum where any user can create account, create threads, and reply on any forum thread.
