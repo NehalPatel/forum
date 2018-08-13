@@ -19,6 +19,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/threads', ['as' => 'threads.listing' , 'uses' => 'ThreadsController@index']);
-Route::get('/threads/{thread}', ['as' => 'threads.show' , 'uses' => 'ThreadsController@show']);
-Route::post('/threads/{thread}/replies', ['as' => 'reply.save' , 'uses' => 'RepliesController@store']);
+Route::get('/threads', ['as' => 'threads.listing', 'uses' => 'ThreadsController@index']);
+Route::post('/threads', ['as' => 'threads.store', 'uses' => 'ThreadsController@store']);
+Route::get('/threads/{thread}', ['as' => 'threads.show', 'uses' => 'ThreadsController@show']);
+Route::post('/threads/{thread}/replies', ['as' => 'reply.save', 'uses' => 'RepliesController@store']);
